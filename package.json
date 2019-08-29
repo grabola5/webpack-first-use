@@ -1,0 +1,26 @@
+{
+  "name": "16.3-webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "browser-sync start --server --files css/*.css *.html *.js",
+    "start": "webpack --config myConfig.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grabola5/webpack-first-use.git"
+  },
+  "author": "grabola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grabola5/webpack-first-use/issues"
+  },
+  "homepage": "https://github.com/grabola5/webpack-first-use#readme",
+  "description": ""
+}
